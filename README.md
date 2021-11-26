@@ -1,0 +1,2 @@
+# honey
+Foreign project localization
