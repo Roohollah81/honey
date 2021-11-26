@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__sapper__": true,
+        "**/.qmake": true,
+        "**/bin": true,
+        "**/cypress*": true,
+        "**/obj": true,
+        "node_modules": true,
+        "package-lock.json": true
+    },
+    "explorerExclude.backup": null
+}

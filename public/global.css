@@ -1,0 +1,82 @@
+.light {
+	--text-color      : #292a2d;
+	--background-color: white;
+	--hover-color     : hsla(0, 0%, 0%, 0.15);
+
+	color-scheme: light;
+}
+
+.dark {
+	--text-color      : white;
+	--background-color: #292a2d;
+	--hover-color     : hsla(0, 0%, 100%, 0.15);
+
+	color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+	.auto {
+		--text-color      : #292a2d;
+		--background-color: white;
+		--hover-color     : hsla(0, 0%, 0%, 0.15);
+
+		color-scheme: light;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.auto {
+		--text-color      : white;
+		--background-color: #292a2d;
+		--hover-color     : hsla(0, 0%, 100%, 0.15);
+
+		color-scheme: dark;
+	}
+}
+
+* {
+	margin     : 0;
+	padding    : 0;
+	box-sizing : border-box;
+	user-select: none;
+	font-family: Roboto;
+}
+
+html,
+body {
+	overflow: hidden;
+}
+
+body {
+	display    : flex;
+	flex-flow  : column nowrap;
+	width      : 360px;
+	max-width  : 360px;
+	height     : 600px;
+	max-height : 600px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size  : 14px;
+}
+
+main {
+	color           : var(--text-color);
+	background-color: var(--background-color);
+}
+
+button {
+	color     : inherit;
+	background: none;
+	border    : none;
+	outline   : none;
+	text-align: inherit;
+}
+
+:root {
+	--mdc-theme-primary: #4055BF;
+	--mdc-typography-subtitle1-font-size: 12px;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
