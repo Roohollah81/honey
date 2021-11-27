@@ -7,9 +7,10 @@
 <style lang="scss">
 	div.container {
 		position: relative;
-		width: 360px;
-		height: 600px;
-		border: 1px solid gray;
+		width: 100px;
+		height: 100px;
+		background-color: aqua;
+		border: 10px solid black;
 	}
 </style>
 
